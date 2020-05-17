@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>RuB2T</title>
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!--  Fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--  CSS  -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+
+                <div class="header__logo">
+                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+                </div>
+
+                <!-- Nav -->
+
+                <nav class="nav">
+                    <a href="#intro" class="nav__link">Главная</a>
+                    <a href="#about" class="nav__link">О нас</a>
+                    <a href="#support" class="nav__link">Поддержка</a>
+                    <a target="_blank" href="http://vk.com/rub2t" class="nav__link">Новости</a>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Intro -->
+
+    <div class="intro" id="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <div class="intro__content">
+                    <div class="intro__title">
+                        сервер без ограничений
+                    </div>
+                    <div class="intro__subtitle"><em>Версия 1.12.2</em></div>
+                    <div class="intro__copy">
+                        <input type="text" class="intro__ip" id="serverip" value="173.212.241.233:25565" readonly>
+                        <button class="btn" id="ipbtn" onclick="copyip()">Скопировать</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- About -->
+
+    <div class="about" id="about">
+        <div class="container">
+            <div class="about__inner">
+                <div class="about__title"> О нас</div>
+
+                <div class="about__text">
+                    <p>
+                        2b2t - наверное самый популярный и старый на данный момент времени сервер. Из-за чего он и
+                        получил свою славу. Благодаря этой славе сервер стал тяжело доступным как для старых, так и для
+                        новых игроков. Ведь время в очереди на вход в сервер могло занимать по несколько пару часов, да
+                        и еще наличие лицензии задавало некоторые проблемы. Из-за этого нам пришла идея сделать свой -
+                        <strong>Rub2t</strong> (2b2t адаптованный под рус. аудиторию, не нуждающийся в лицензии). В
+                        целом сервер полностью повторяет настоящий 2b2t - никаких приватов, плагинов и правил. Здесь ты
+                        сможешь как и обьединяться с другими игроками создавая клан и уничтожая все на своем пути, так и
+                        создать свой собственный город мечты и помогать другим. Все зависит только от тебя!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Support -->
+
+    <div class="support" id="support">
+        <div class="container">
+            <div class="support__title">Поддержка</div>
+            <div class="support__content">
+                <div class="support__text">
+                    Если возникли какие то вопросы или идеи можете написать их нам в <a
+                        href="http://vk.com/rub2t"><u>группу ВКонтакте</u></a> или на почту RuB2Thelp@gmail.com
+                </div>
+                <div class="support__icons">
+                    <a target="_blank" class="icon" href="http://vk.com/rub2t"><img class="support__icon"
+                            src="img/vk.png" alt=""></a>
+                    <a target="_blank" class="icon" href="https://t.me/joinchat/AAAAAFR13u7pdSffmC1erw"><img
+                            class="support__icon" src="img/telegram.png" alt=""></a>
+                    <a target="_blank" class="icon" href="mailto:RuB2Thelp@gmail.com"><img class="support__icon"
+                            src="img/mail.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__block">
+                    <div class="footer__copyright">©RuB2T 2020</div>
+                    <div class="footer__help">Support - RuB2Thelp@gmail.com</div>
+                </div>
+                <div class="footer__block">
+                    <a target="_blank" href="http://minecraftrating.ru/vote/90932/"><img class="vote"
+                            src="img/widget_vote.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
