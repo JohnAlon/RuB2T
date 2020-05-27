@@ -283,7 +283,7 @@ u:hover {
 
 
 	opacity: .5;
-	transition: .2s;
+	transition: .1s;
 }
 
 .support__icon:hover {
@@ -383,10 +383,6 @@ u:hover {
 	}
 
 	/* Header */
-	.header {
-		position: fixed;
-	}
-
 	.header__inner {
 		display: flex;
 		justify-content: center;
@@ -466,6 +462,11 @@ u:hover {
 	/* About */
 	.about__text {
 		font-size: 12px;
+	}
+
+	/* Support */
+	.icon {
+		margin-left: 30px;
 	}
 
 	/* Footer */
