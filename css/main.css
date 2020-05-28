@@ -435,6 +435,10 @@ u:hover {
 		margin-bottom: 20px;
 	}
 
+	.icon {
+		margin-left: 15px;
+	}
+
 	/* Footer */
 	.footer {
 		height: 120px;
